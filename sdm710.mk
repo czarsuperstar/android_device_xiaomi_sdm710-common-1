@@ -154,9 +154,13 @@ PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-impl.generic \
     android.hardware.contexthub@1.0-service
 
-# Device-specific settings
-#PRODUCT_PACKAGES += \
-#    XiaomiParts
+# DeviceDoze
+PRODUCT_PACKAGES += \
+    DeviceDoze  
+    
+# Device Settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Allocator
 PRODUCT_PACKAGES += \
